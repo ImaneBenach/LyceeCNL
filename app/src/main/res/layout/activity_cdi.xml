@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CDIActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:paddingTop="150dp"
+                android:paddingRight="0dp"
+                android:layout_marginTop="-150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lycee4bis" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La professeur-documentaliste"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:layout_below="@+id/iv"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv2"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:textStyle="italic"
+                android:text="Les responsables du CDI, Mme Teyton assure plusieurs missions essentielles :\n
+• La gestion du centre de ressources documentaires\n
+• La formation des usagers à la recherche documentaire et à d'autres séances pédagogique en\n
+lien avec l'Education aux médias et à l'Information\n
+• La participation à l’ouverture culturelle de l’établissement"/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Les créneaux d'ouverture"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv5"
+                android:layout_below="@id/tv4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:text="Le CDI est ouvert du lundi au vendredi, de 8h30 à 12h puis de 13h à 16h, excepté le mercredi de 9h à12h." />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A quoi sert le CDI ?"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv7"
+                android:layout_below="@id/tv6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:text="utiliser les ressources disponibles pour des recherches documentaires
+• Lire et se cultiver\n
+• S’informer sur son orientation : les ressources numériques de l’Onisep.\n
+• Consulter et emprunter des documents (romans, mangas, BD, documentaires etc.)\n
+
+La durée des prêts dépend du type de livre emprunté : 3 semaines pour les romans, 1 semaine pour
+les documentaires ( livres, périodiques), manga et Bandes dessinées." />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quelques règles de vie essentielles"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv9"
+                android:layout_below="@id/tv8"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:text="• Parler à voix basse et respecter les règles de convivialité\n
+• éviter l'utilisation systématique du téléphone portable\n
+• ranger à leur place les documents utilisés\n
+• rester au CDI l';heure entière" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Espace multimédia et Internet"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv11"
+                android:layout_below="@id/tv10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:text="Les ordinateurs du CDI sont des outils de recherche et de travail scolaire.\n
+L’accès au réseau informatique et à l’internet est soumis à l’acceptation d’un «code de l’utilisateur»
+conforme à la charte informatique de l’établissement (page 30 du règlement intérieur).\n
+Cette charte précise les règles de base à observer." />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

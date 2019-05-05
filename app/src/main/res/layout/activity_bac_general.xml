@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bacGeneralActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:paddingTop="150dp"
+                android:paddingRight="0dp"
+                android:layout_marginTop="-150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lycee3" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Les filières générales"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:layout_below="@+id/iv"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv2"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:textStyle="italic"
+                android:text="La voie générale prépare en deux ans les lycéens au baccalauréat général et à la poursuite d’études supérieures, principalement en université ou en classes préparatoires. Elle comprend trois séries : littéraire (L), économique et sociale (ES) et scientifique (S)."/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La série littéraire (L)"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv5"
+                android:layout_below="@id/tv4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:text="La série littéraire revalorisée propose des contenus rénovés et des débouchés élargis pour une meilleure insertion dans l’enseignement supérieur. Elle :\n
+
+• est centrée sur des études littéraires en phase avec le monde moderne\n
+• privilégie l'étude des langues vivantes\n
+• offre un choix varié d'enseignements de spécialité\n
+• Dès la première, l'identité de la série est mise en avant grâce à :\n
+
+• de nouveaux enseignements de littérature et de littérature étrangère en langue étrangère pour tous les élèves\n
+• un panel varié d’enseignements spécifiques au choix : arts, mathématiques, langues vivantes (LV3 ou LV1 ou 2 approfondie), langues et cultures de l'Antiquité (latin, grec).\n
+• La terminale est le moment privilégié de la spécialisation :\n
+
+• l'enseignement de littérature et de littérature étrangère se poursuit\n
+• plusieurs enseignements de spécialité sont proposés : un enseignement de droit et grands enjeux du monde contemporain s'ajoute à ceux de mathématiques, langues et cultures de l'Antiquité, langue vivante 1 ou 2 approfondie, langue vivante 3 et arts\n
+• l'enseignement d'histoire-géographie est tourné vers l‘approfondissement des méthodes et des outils d’analyse propres à ces disciplines" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La série économique et sociale (ES)"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv7"
+                android:layout_below="@id/tv6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:text="La série ES est centrée sur l'enseignement des sciences économiques et sociales, qui permet aux élèves de s'approprier progressivement les concepts, les méthodes et les problématiques essentiels de trois sciences sociales : les sciences économiques, la sociologie et les sciences politiques.\n
+
+→ La terminale ES propose des enseignements de spécialité de sciences sociales et politiques ou d'économie approfondie. La spécialisation en mathématiques est conservée. Comme en série L, l'enseignement d'histoire-géographie est tourné vers l‘approfondissement des méthodes et des outils d’analyse propres à ces disciplines." />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La série scientifique (S)"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv9"
+                android:layout_below="@id/tv8"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:text="La série S a été réorganisée pour attirer les élèves motivés par les sciences.\n
+
+→ En première, une large place est faite aux mathématiques et aux sciences expérimentales : physique-chimie et sciences de la vie et de la Terre. Une dominante sciences de l'ingénieur est maintenue en alternative aux sciences de la vie et de la Terre dans le tronc commun. Une dominante écologie, agronomie et territoire peut être choisie à la place des deux enseignements, dans les lycées dépendant du ministère de l’agriculture.\n
+
+→ En terminale, la vocation scientifique de la série prend tout son sens : les enseignements scientifiques représentent deux tiers du total des enseignements. Un enseignement de spécialité d'informatique et sciences du numérique s'ajoute aux spécialisations possibles en physique-chimie, mathématiques et sciences de la vie et de la Terre." />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

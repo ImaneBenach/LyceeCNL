@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BacProActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:paddingTop="150dp"
+                android:paddingRight="0dp"
+                android:layout_marginTop="-150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lycee1" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Une réponse aux besoins des entreprises"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:layout_below="@+id/iv"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv2"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:textStyle="italic"
+                android:text="Le bac professionnel offre une qualification reconnue sur le marché de l'emploi et répond à la demande des entreprises de la production et des services. L'enseignement se réfère à des métiers et comprend des stages appelés PFMP (périodes de formation en milieu professionnel).\n
+Il permet d'accéder rapidement au monde du travail mais aussi de continuer ses études dans l'enseignement supérieur, principalement en BTS."/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L'accès en BAC PRO"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv5"
+                android:layout_below="@id/tv4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:text="L'accès peut se faire soit après la classe de 3e, soit après un CAP ou encore après une 2de générale et technologique.\n
+
+→ En fin de 3e, lors des vœux d'orientation, les élèves choisissent leur spécialité de bac professionnel parmi une cinquantaine de classes de seconde professionnelle. Cette classe leur permet d'aborder un champ professionnel (assez large) ou une filière (plus spécialisée).\n
+
+→ Après un CAP obtenu à la session précédant l'inscription, il est possible de poursuivre une formation vers le bac professionnel en 2 ans, dans une spécialité en cohérence avec celle du diplôme obtenu. Ils intègrent alors la classe de 1re professionnelle.\n
+
+→ Après une 2de générale et technologique, la réorientation vers la voie professionnelle est à l'initiative de l'élève et de sa famille. Le conseil de classe ne peut pas imposer ce choix. Si l'élève demande une réorientation dans la voie professionnelle, celle‐ci doit être validée par le chef d'établissement qui peut proposer, en accord avec l'équipe pédagogique et s'ils le jugent utile, un stage passerelle." />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Au programme"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv7"
+                android:layout_below="@id/tv6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:text="Des enseignements généraux identiques pour tous les élèves, quelle que soit la spécialité de bac professionnel.\n
+
+→ Des enseignements professionnels et des enseignements généraux liés à la spécialité du bac professionnel, avec des différences selon que le bac professionnel relève du secteur de la production (agriculture, espaces verts, génie civil, matériaux, mécanique-électricité...) ou du secteur tertiaire (transports, logistique, commerce, gestion, services au personnes...).\n
+
+→ Des périodes de formation en milieu professionnel (22 semaines de stages réparties sur 3 ans).\n
+
+→ Un accompagnement personnalisé : tout au long du parcours de bac professionnel, ce dispositif sera proposé en fonction des besoins des élèves et de leurs projets personnels. Cet accompagnement personnalisé pourra prendre la forme d'un travail de soutien, d’approfondissement et d'aide à l'orientation, en particulier pour la préparation à la poursuite d'études." />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

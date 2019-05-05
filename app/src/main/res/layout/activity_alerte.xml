@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlerteActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:paddingTop="150dp"
+                android:paddingRight="0dp"
+                android:layout_marginTop="-150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/alerte" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avant un attentat"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/rouge"
+                android:padding="10dp"
+                android:layout_below="@+id/iv"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv2"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:textStyle="italic"
+                android:text="Signaler tout colis suspect (une valise abandonnée dans une gare,…), même s’il s’agit bien souvent d’un oubli, il est toujours prudent de le signaler.\n
+Signalez toute personne suspecte. Un agissement suspect doit attirer votre attention s’il vous semble inhabituel par rapport à l'endroit où vous vous trouvez:\n
+repérages fréquents de certains endroitsintérêts particuliers pour des aspects liés à la sécurité d’un lie\n
+→ Prenez connaissance du travail des autorités, comme l'évaluation de la menace.\n
+→ Suivez les recommandations et les mesures prises par les autorités, lorsqu'elles le demandent.\n
+→ Si vous devez vous rendre à l'étranger, suivez également les recommandations données par les Affaires étrangères."/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pendant un attentat"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/rouge"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv5"
+                android:layout_below="@id/tv4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:text="Si vous vous trouvez sur le lieu d’une explosion\n
+→ Eloignez-vous le plus rapidement possible et essayez de ne pas paniquer.\n
+→ Aidez les personnes qui ont des difficultés à s'éloigner et emmenez-les avec vous.\n
+→ Si vous vous trouvez dans un bâtiment, n'utilisez pas les ascenseurs. Couvrez-vous la bouche et le nez, afin de ne pas inhaler une trop grande quantité de poussière.\n
+→ Ne restez pas trop près d’immeubles qui pourraient s’effondrer à cause des dommages causés par l’explosion.\n
+→ Restez toutefois près des lieux de l'incident, afin d'être pris en charge par les services de secours.\n
+→ Ne restez pas en groupe, une nouvelle explosion peut encore survenir.\n
+→ Si les services de secours ne sont pas encore surplace, donnez l'alerte en appelant le 112.\n
+→ Evitez de téléphoner pour ne pas saturer le réseau et ne pas entraver le travail des services de secours. Utilisez plutôt les services de messageries (SMS, Whatsapp,..) pour signaler que vous êtes à l’abri.\n
+→ Répondez scrupuleusement aux questions des services de secours. Soyez précis." />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Après un attentat"
+                android:textSize="15dp"
+                android:background="@color/rouge"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv7"
+                android:layout_below="@id/tv6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:text="Certains lieux publics et/ou sensibles peuvent être fermés après un attentat terroriste: écoles, administrations,…). Informez-vous à ce sujet.\n
+ Une attaque terroriste peut conduire à un choc post-traumatique. Si vous avez le moindre doute sur votre état de santé physique ou psychologique, consultez votre médecin." />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

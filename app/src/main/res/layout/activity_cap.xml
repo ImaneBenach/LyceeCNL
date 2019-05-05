@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CAPActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:paddingTop="150dp"
+                android:paddingRight="0dp"
+                android:layout_marginTop="-130dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lycee2" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quelles études ?"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:layout_below="@+id/iv"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv2"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:textStyle="italic"
+                android:text="Le CAP se prépare en 2 ans après la classe de 3e, soit en lycée professionnel, soit en CFA (centre de formation d'apprentis). Le CAP agricole est proposé en établissement d’enseignement agricole.\n
+
+→ Cas particuliers : Le CAP peut se préparer en 1 an après un premier CAP ou, plus rarement, en 3 ans en cas de difficultés."/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Au programme..."
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@color/gris"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tv3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv5"
+                android:layout_below="@id/tv4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:text="Bien des changements par rapport au collège. La formation comporte :\n
+• des enseignements généraux (français, mathématiques-sciences, histoire-géographie, langue vivante étrangère, EPS...) qui couvrent presque la moitié de l'emploi du temps hebdomadaire. Certains sont appliqués à des activités professionnelles, par exemple la biologie appliquée à la coiffure, les sciences physiques dans le domaine de l’électricité, ou plus généralement des cours de prévention, santé et environnement.\n
+• des enseignements technologiques et professionnels représentant un peu plus de la moitié de l'emploi du temps. Ils se déroulent sous forme de cours, de TP (travaux pratiques) et de travaux en atelier, en intérieur ou en extérieur, en fonction de la spécialité choisie.\n
+• des périodes de formation en milieu professionnel de 12 à 16 semaines de stages selon les spécialités, réparties sur les 2 ans." />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

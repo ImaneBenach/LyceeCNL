@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.imaneben.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".EtabActivity" />
+        <activity android:name=".VieLyceenneActivity" />
+        <activity android:name=".ClubActivity" />
+        <activity android:name=".JIntegrationActivity" />
+        <activity android:name=".SortiesActivity" />
+        <activity android:name=".ExpoGioActivity" />
+        <activity android:name=".MangaActivity" />
+        <activity android:name=".BasiliqueActivity" />
+        <activity android:name=".ChampionnatActivity" />
+        <activity android:name=".BACActivity" />
+        <activity android:name=".BacProActivity" />
+        <activity android:name=".CAPActivity" />
+        <activity android:name=".bacGeneralActivity" />
+        <activity android:name=".CDIActivity" />
+        <activity android:name=".AlerteActivity" />
+        <activity android:name=".CantineActivity" />
+        <activity android:name=".InfoActivity"></activity>
+    </application>
+
+</manifest>
